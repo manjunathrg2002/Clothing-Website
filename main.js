@@ -23,6 +23,8 @@ countDown()
 
 setInterval(countDown, 1000)
 
+// Scroll To Top section 
+
 function scrollTopBack(){
     let scrollTopButton = document.querySelector("#scrollUp");
     window.onscroll = function (){
